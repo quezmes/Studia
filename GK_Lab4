@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+
+
+preserveAspectRatio="xMidYMid">
+
+<defs>
+<g id = "poly" stroke = "black" >
+<polygon points="148,111 
+139,131
+ 121,145
+ 100,150 
+ 78,145
+ 60,131 
+ 51,111 
+ 51,88
+ 60,68 
+ 78,54 
+ 100,50 
+ 121,54 
+ 139,68 
+ 148,88" 
+fill="none" stroke="green" stroke-width="10" >
+    <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="360 100 100"
+                          to="0 100 100"
+                          dur="10s"
+                          repeatCount="indefinite" />
+</polygon>
+<polygon points="148,111 
+139,131
+ 121,145
+ 100,150 
+ 78,145
+ 60,131 
+ 51,111 
+ 51,88
+ 60,68 
+ 78,54 
+ 100,50 
+ 121,54 
+ 139,68 
+ 148,88" 
+fill="none" stroke="green" stroke-width="10" >
+    <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="360 100 100"
+                          to="0 100 100"
+                          dur="10s"
+                          repeatCount="indefinite" />
+</polygon>
+</g>
+</defs>
+
+
+<defs>
+<g id="figura">
+<use xlink:href = "#poly"  transform = "translate(100,100)" />
+<use xlink:href = "#poly" transform = "translate(400,150)" />
+
+<rect x = "210" y = "150" width = "350" height = "30" transform = "rotate(10)"/>
+<polygon points="350,220 400,450 300,450"  stroke="red" stroke-width="10" /> 
+</g>
+</defs>
+<use xlink:href = "#figura"   transform= "translate(0,100) scale(0.7,0.7)"/>
+<use xlink:href = "#figura"   transform = "translate(500,300)" fill="yellow"/>
+<use xlink:href = "#figura"   transform = "translate(1000,100) scale(0.5,0.5)" fill="blue"/>
+</svg>
