@@ -31,28 +31,6 @@ fill="none" stroke="green" stroke-width="10" >
                           dur="10s"
                           repeatCount="indefinite" />
 </polygon>
-<polygon points="148,111 
-139,131
- 121,145
- 100,150 
- 78,145
- 60,131 
- 51,111 
- 51,88
- 60,68 
- 78,54 
- 100,50 
- 121,54 
- 139,68 
- 148,88" 
-fill="none" stroke="green" stroke-width="10" >
-    <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="360 100 100"
-                          to="0 100 100"
-                          dur="10s"
-                          repeatCount="indefinite" />
-</polygon>
 </g>
 </defs>
 
