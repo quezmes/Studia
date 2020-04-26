@@ -56,7 +56,7 @@
 
             //------------------- Create the scene's visible objects ----------------------
 
-            //materiał, czarny, ustawione zachowanie światła, połysk
+            
             var material = new THREE.MeshPhongMaterial({
                 color: "white",
                 shininess: 8,
